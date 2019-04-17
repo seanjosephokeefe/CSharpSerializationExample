@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.0\SerializationExample.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\SerializationExample.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\SerializationExample.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp2.0\binary\" />
+    <Folder Include="bin\Debug\netcoreapp2.0\binary\xml\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.0\SerializationExample.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\SerializationExample.pdb" />
+  </ItemGroup>
+
+</Project>
